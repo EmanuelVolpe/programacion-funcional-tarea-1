@@ -1,19 +1,29 @@
-export function multiplicarPor10(array) {}
+const input = [10, 15, 20, 25, 30, 35];
 
-export function soloPares(array) {}
+export function multiplicarPor10(array) {
+    return array.map((elem) => elem * 10)
+}
 
-export function moverALaDerecha(array) {}
+console.log(multiplicarPor10(input));
 
-export function soloUnaPalabra(array) {}
+export function soloPares(array) {
+    return array.filter((elem) => elem % 2 === 0)
+}
 
-export function soloArraysPositivos(array) {}
+console.log(soloPares(input));
 
-export function soloVocales(array) {}
+export function moverALaDerecha(array) { }
 
-export function todasVocalesIguales(array) {}
+export function soloUnaPalabra(array) { }
 
-export function duplicarMatriz(array) {}
+export function soloArraysPositivos(array) { }
 
-export function mayoresDeEdadValidados(array) {}
+export function soloVocales(array) { }
 
-export function transformarObjetoEnArray(objeto) {}
+export function todasVocalesIguales(array) { }
+
+export function duplicarMatriz(array) { }
+
+export function mayoresDeEdadValidados(array) { }
+
+export function transformarObjetoEnArray(objeto) { }
